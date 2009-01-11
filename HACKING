@@ -1,0 +1,7 @@
+Gina is written in Vala, so if you plan to hack on the source code, you'll
+need to install the Vala compiler.
+
+I'm currently using Vala 0.5.3 for development; since Vala is such a
+quickly evolving language, I can't guarantee compatibility with any other
+version. I plan, however, to keep on updating the code to make it work
+with the latest Vala release.

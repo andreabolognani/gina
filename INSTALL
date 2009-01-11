@@ -1,0 +1,22 @@
+Requirements
+============
+
+Gina depends on the following software:
+
+    * GTK+ 2.12
+
+I haven't checked thoroughly, however since Gina uses only a small fraction
+of the features provided by the GTK+ library, mostly pretty basic stuff, it
+should be possible to make it work with older versions of GTK+ as well.
+
+
+Build and install
+=================
+
+You can compile and install Gina using the usual command sequence
+
+    ./configure
+    make
+    make install (as root)
+
+Provided you have the needed header files and tools, that should be it.

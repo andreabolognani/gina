@@ -1,0 +1,11 @@
+New in Gina 1.0.0
+=================
+
+    * Re-implemented from scratch in Vala.
+
+    * Added a menubar, which can be toggled on and off.
+
+    * Added the ability to turn off window decorations (not guaranteed to
+      work with every window manager).
+
+    * Use the GNU autotools for the build system.
