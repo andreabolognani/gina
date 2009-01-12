@@ -1,1 +1,7 @@
-Gina is a simple sticky-notes application.
+Gina is a simple sticky notes application.
+
+You can manage a virtually unlimited number of text notes, each one
+stored on a plain text file.
+
+Every actions is bound to a key combination; to get an overview
+of available key bindings, press Ctrl+H in any Gina window.
