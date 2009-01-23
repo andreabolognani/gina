@@ -232,6 +232,14 @@ namespace Gina {
 
             action = new Gtk.Action ("About", null, null, Gtk.STOCK_ABOUT);
             action.activate += () => {
+                Gtk.AboutDialog.set_url_hook ((dialog, link) => {
+                    try {
+                        Gtk.show_uri (this.get_screen (), link, Gdk.CURRENT_TIME);
+                    }
+                    catch (Error e) {
+                        warning ("Couldn't open link: %s", e.message);
+                    }
+                });
                 Gtk.show_about_dialog (this,
                                        "title", "About Gina",
                                        "program-name", "Gina",
