@@ -3,7 +3,7 @@ Requirements
 
 Gina depends on the following software:
 
-    * GTK+ 2.12
+    * GTK+ 2.14
 
 I haven't checked thoroughly, however since Gina uses only a small fraction
 of the features provided by the GTK+ library, mostly pretty basic stuff, it
