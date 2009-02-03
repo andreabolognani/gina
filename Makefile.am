@@ -30,9 +30,12 @@ gina_LDADD = \
 	$(VALA_LIBS) \
 	$(NULL)
 
+man_MANS = doc/gina.1
+
 EXTRA_DIST = \
 	$(gina_VALASOURCES) \
 	src/ginanote.vala.stamp \
+    doc/gina.1
 	$(NULL)
 
 DISTCLEANFILES = \
