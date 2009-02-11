@@ -3,22 +3,17 @@ Features
 
     * Ask the user if he wants to save the current note when it is closed
       if the contents have diverged from the ones of the backing file.
-
     * Warn about unsaved notes on application close.
-
     * Editable key bindings.
-
     * Editable color scheme.
 
 
 Code
 ====
 
-    * Split the code handling on-disk storage from the interface code.
-
-    * Refactor the save function to be less redundant.
-
-    * Move the file handling code to GIO.
+    * Split the code handling on-disk storage from the GUI code.
+    * Refactor the save function to make it less redundant.
+    * Port the file handling code to GIO.
 
 
 Other
