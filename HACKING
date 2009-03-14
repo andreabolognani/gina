@@ -1,10 +1,13 @@
 Gina is written in Vala, so if you plan to hack on the source code, you'll
-need to install the Vala compiler.
+need to install the Vala compiler. The provided C source files are just for
+convenience, and patches against them will not be considered for merging.
 
-I'm currently using Vala 0.5.3 for development; since Vala is such a
+I'm currently using Vala 0.5.5 for development; since Vala is such a
 quickly evolving language, I can't guarantee compatibility with any other
 version. I plan, however, to keep on updating the code to make it work
 with the latest Vala release.
 
-Due to a bug in Vala 0.5.6 (the latest release as of this writing), it's
-not possible to compile Gina using said version. Use 0.5.3 instead.
+Due to a bug in Vala 0.5.6 and later releases (up to Vala 0.5.7 at the time
+of this writing), it's not possible to compile Gina using said version. A
+bug report (GNOME bug #570872) has been filed upstream; in the meantime, you
+can just keep using Vala 0.5.5 when hacking on Gina.
