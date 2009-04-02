@@ -7,7 +7,5 @@ quickly evolving language, I can't guarantee compatibility with any other
 version. I plan, however, to keep on updating the code to make it work
 with the latest Vala release.
 
-Due to a bug in Vala 0.5.6 and later releases (up to Vala 0.5.7 at the time
-of this writing), it's not possible to compile Gina using said version. A
-bug report (GNOME bug #570872) has been filed upstream; in the meantime, you
-can just keep using Vala 0.5.5 when hacking on Gina.
+Due to a bug in Vala 0.5.6 and 0.5.7, it's not possible to compile Gina using
+those versions. The bug (GNOME #570872) has been fixed in Vala 0.6.0.
