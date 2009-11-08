@@ -1,0 +1,4 @@
+ginanote.h
+ginanote.c
+*.vala.stamp
+*.o

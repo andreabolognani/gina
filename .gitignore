@@ -1,10 +1,5 @@
 gina
-
-*.vala.stamp
-
-src/ginanote.h
-src/ginanote.c
-
+*.swp
 .deps
 .libs
 .dirstamp
