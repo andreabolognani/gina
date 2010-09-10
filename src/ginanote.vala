@@ -1,5 +1,5 @@
 /* Gina -- Virtual sticky notes
- * Copyright (C) 2006-2009  Andrea Bolognani <eof@kiyuko.org>
+ * Copyright (C) 2006-2010  Andrea Bolognani <eof@kiyuko.org>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -248,7 +248,7 @@ public class Gina.Note : Gtk.Window {
 			                       "version", "1.0.0",
 			                       "website", "http://kiyuko.org/software/gina",
 			                       "comments", "Virtual sticky notes",
-			                       "copyright", "Copyright © 2006-2009 Andrea Bolognani",
+			                       "copyright", "Copyright © 2006-2010 Andrea Bolognani",
 			                       "authors", new string[] {"Andrea Bolognani <eof@kiyuko.org>", null});
 		};
 		help_group.add_action (action);
