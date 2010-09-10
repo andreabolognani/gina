@@ -15,7 +15,7 @@
  * with this program; if not, write to the Free Software Foundation, Inc.,
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  *
- * Homepage: http://www.kiyuko.org/software/gina
+ * Homepage: http://kiyuko.org/software/gina
  */
 
 using GLib;
@@ -246,7 +246,7 @@ public class Gina.Note : Gtk.Window {
 			                       "title", "About Gina",
 			                       "program-name", "Gina",
 			                       "version", "1.0.0",
-			                       "website", "http://www.kiyuko.org/software/gina",
+			                       "website", "http://kiyuko.org/software/gina",
 			                       "comments", "Virtual sticky notes",
 			                       "copyright", "Copyright © 2006-2009 Andrea Bolognani",
 			                       "authors", new string[] {"Andrea Bolognani <eof@kiyuko.org>", null});
