@@ -49,6 +49,7 @@ public class Gina.Note : Gtk.Window {
 		                   "      <menuitem action=\"Save\" />" +
 		                   "      <menuitem action=\"SaveAs\" />" +
 		                   "      <separator />" +
+		                   "      <menuitem action=\"Close\" />" +
 		                   "      <menuitem action=\"Quit\" />" +
 		                   "    </menu>" +
 		                   "    <menu action=\"Edit\">" +
@@ -121,6 +122,12 @@ public class Gina.Note : Gtk.Window {
 			save_as ();
 		};
 		file_group.add_action_with_accel (action, "<Control><Shift>s");
+
+		action = new Gtk.Action ("Close", null, null, Gtk.STOCK_CLOSE);
+		action.activate += () => {
+			close ();
+		};
+		file_group.add_action_with_accel (action, "<Control>w");
 
 		action = new Gtk.Action ("Quit", null, null, Gtk.STOCK_QUIT);
 		action.activate += () => {
@@ -213,6 +220,7 @@ public class Gina.Note : Gtk.Window {
 			                  "Ctrl+O: Load note from file\n" +
 			                  "Ctrl+S: Save note\n" +
 			                  "Shift+Ctrl+S: Save note as...\n" +
+			                  "Ctrl+W: Close note\n" +
 			                  "\n" +
 			                  "<b>Edit</b>\n" +
 			                  "Ctrl+C: Copy hilighted text\n" +
