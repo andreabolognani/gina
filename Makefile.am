@@ -19,7 +19,6 @@ gina_VALASOURCES = \
 
 gina_SOURCES = \
 	$(gina_VALASOURCES:.vala=.c) \
-	$(gina_VALASOURCES:.vala=.h) \
 	$(NULL)
 
 src/ginanote.vala.stamp: $(gina_VALASOURCES)
